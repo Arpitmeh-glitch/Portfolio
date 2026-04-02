@@ -16,7 +16,7 @@ const projects = [
     longDesc:
       "Built for security professionals and bug bounty hunters. Automatically checks for missing security headers (CSP, HSTS, X-Frame-Options), analyzes redirect paths, detects server technologies, and outputs structured JSON reports.",
     tags: ["Python", "Requests", "Click CLI", "HTTP Analysis", "Security Headers", "OSINT"],
-    github: "https://github.com/",
+    github: "https://github.com/Arpitmeh-glitch/web-recon-cli",
     demo: "#",
     metrics: [
       { label: "Response Analysis", value: "✓" },
@@ -45,8 +45,8 @@ const projects = [
       "Python",
       "Scikit-learn",
     ],
-    github: "https://github.com/",
-    demo: "#",
+    github: "https://github.com/Arpitmeh-glitch/phishguard",
+    demo: "https://phishguard-qfttb9pcu-arpitmeh-glitchs-projects.vercel.app/",
     metrics: [
       { label: "ML Accuracy", value: "96.8%" },
       { label: "Encryption", value: "AES-256" },
