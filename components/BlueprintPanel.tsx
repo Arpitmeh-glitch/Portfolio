@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { PANEL_DATA } from "@/app/blueprint/page";
+import { PANEL_DATA } from "@/app/blueprint/data";
 
 interface BlueprintPanelProps {
   panelId: string;
