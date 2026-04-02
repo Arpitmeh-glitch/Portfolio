@@ -30,7 +30,7 @@ const REGION_GROUPS = [
     label: "NOSE CONE",
     code: "SYS-001",
     panelId: "about",
-    closeupImg: "/blueprints/nose.png",
+    closeupImg: "/blueprints/nose.webp",
     zoomTo: { cx: 50, cy: 14, scale: 2.4 },
     dots: [
       { cx: 672, cy: 42 },
@@ -48,7 +48,7 @@ const REGION_GROUPS = [
     label: "COCKPIT",
     code: "SYS-002",
     panelId: "cockpit",
-    closeupImg: "/blueprints/cockpit.png",
+    closeupImg: "/blueprints/cockpit.webp",
     zoomTo: { cx: 50, cy: 37, scale: 2.2 },
     dots: [
       { cx: 672, cy: 228 },
@@ -65,7 +65,7 @@ const REGION_GROUPS = [
     label: "PAYLOAD BAY",
     code: "SYS-003",
     panelId: "projects",
-    closeupImg: "/blueprints/cockpit.png",
+    closeupImg: "/blueprints/cockpit.webp",
     zoomTo: { cx: 50, cy: 59, scale: 2.0 },
     dots: [
       { cx: 672, cy: 438 },
@@ -82,7 +82,7 @@ const REGION_GROUPS = [
     label: "PORT WING",
     code: "SYS-004L",
     panelId: "achievements",
-    closeupImg: "/blueprints/wings.png",
+    closeupImg: "/blueprints/wings.webp",
     zoomTo: { cx: 22, cy: 57, scale: 2.0 },
     dots: [
       { cx: 340, cy: 462 },
@@ -101,7 +101,7 @@ const REGION_GROUPS = [
     label: "STARBOARD WING",
     code: "SYS-004R",
     panelId: "achievements",
-    closeupImg: "/blueprints/wings.png",
+    closeupImg: "/blueprints/wings.webp",
     zoomTo: { cx: 78, cy: 57, scale: 2.0 },
     dots: [
       { cx: 1004, cy: 462 },
@@ -120,7 +120,7 @@ const REGION_GROUPS = [
     label: "PORT PYLONS",
     code: "SYS-004L-W",
     panelId: "tools",
-    closeupImg: "/blueprints/wings.png",
+    closeupImg: "/blueprints/wings.webp",
     zoomTo: { cx: 30, cy: 62, scale: 2.1 },
     dots: [
       { cx: 362, cy: 511 },
@@ -136,7 +136,7 @@ const REGION_GROUPS = [
     label: "STARBOARD PYLONS",
     code: "SYS-004R-W",
     panelId: "tools",
-    closeupImg: "/blueprints/wings.png",
+    closeupImg: "/blueprints/wings.webp",
     zoomTo: { cx: 70, cy: 62, scale: 2.1 },
     dots: [
       { cx: 982, cy: 511 },
@@ -152,7 +152,7 @@ const REGION_GROUPS = [
     label: "ENGINE NACELLES",
     code: "SYS-005",
     panelId: "contact",
-    closeupImg: "/blueprints/engines.png",
+    closeupImg: "/blueprints/engines.webp",
     zoomTo: { cx: 50, cy: 84, scale: 2.5 },
     dots: [
       { cx: 630, cy: 582 },
@@ -170,7 +170,7 @@ const REGION_GROUPS = [
     label: "TAIL / STABILISERS",
     code: "SYS-006",
     panelId: "tools",
-    closeupImg: "/blueprints/tail.png",
+    closeupImg: "/blueprints/tail.webp",
     zoomTo: { cx: 50, cy: 95, scale: 2.6 },
     dots: [
       { cx: 672, cy: 728 },
@@ -868,7 +868,7 @@ export default function BlueprintPage() {
             >
               {/* Blueprint image */}
               <img
-                src="/su30.png"
+                src="/su30.webp"
                 alt="SU-30 MKI Blueprint"
                 className="absolute inset-0 w-full h-full"
                 style={{ objectFit: "fill", filter: "brightness(0.88) contrast(1.1)" }}
