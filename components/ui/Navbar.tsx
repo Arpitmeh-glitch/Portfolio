@@ -35,7 +35,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#" className="font-display text-sm tracking-[0.2em] text-white group">
           <span className="text-[var(--cyan)] group-hover:text-white transition-colors">&gt;</span>
-          <span className="ml-2 group-hover:text-[var(--cyan)] transition-colors">AM</span>
+          <span className="ml-2 group-hover:text-[var(--cyan)] transition-colors">meh-glitch</span>
           <span className="ml-1 text-[var(--cyan)] opacity-60">.exe</span>
         </a>
 
