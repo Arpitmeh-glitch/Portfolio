@@ -65,7 +65,7 @@ const REGION_GROUPS = [
     label: "PAYLOAD BAY",
     code: "SYS-003",
     panelId: "projects",
-    closeupImg: "/blueprints/cockpit.webp",
+    closeupImg: "/blueprints/payload.webp",
     zoomTo: { cx: 50, cy: 59, scale: 2.0 },
     dots: [
       { cx: 672, cy: 438 },
@@ -82,7 +82,7 @@ const REGION_GROUPS = [
     label: "PORT WING",
     code: "SYS-004L",
     panelId: "achievements",
-    closeupImg: "/blueprints/wings.webp",
+    closeupImg: "/blueprints/leftwing.webp",
     zoomTo: { cx: 22, cy: 57, scale: 2.0 },
     dots: [
       { cx: 340, cy: 462 },
@@ -101,7 +101,7 @@ const REGION_GROUPS = [
     label: "STARBOARD WING",
     code: "SYS-004R",
     panelId: "achievements",
-    closeupImg: "/blueprints/wings.webp",
+    closeupImg: "/blueprints/rightwing.webp",
     zoomTo: { cx: 78, cy: 57, scale: 2.0 },
     dots: [
       { cx: 1004, cy: 462 },
@@ -120,7 +120,7 @@ const REGION_GROUPS = [
     label: "PORT PYLONS",
     code: "SYS-004L-W",
     panelId: "tools",
-    closeupImg: "/blueprints/wings.webp",
+    closeupImg: "/blueprints/payload.webp",
     zoomTo: { cx: 30, cy: 62, scale: 2.1 },
     dots: [
       { cx: 362, cy: 511 },
@@ -136,7 +136,7 @@ const REGION_GROUPS = [
     label: "STARBOARD PYLONS",
     code: "SYS-004R-W",
     panelId: "tools",
-    closeupImg: "/blueprints/wings.webp",
+    closeupImg: "/blueprints/payload.webp",
     zoomTo: { cx: 70, cy: 62, scale: 2.1 },
     dots: [
       { cx: 982, cy: 511 },
